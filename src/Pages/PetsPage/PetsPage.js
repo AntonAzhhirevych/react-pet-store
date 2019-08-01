@@ -6,7 +6,7 @@ import PetsCard from '../../Components/PetsCard/PetsCard';
 
 const PetsPage = () => {
   return (
-    <>
+    <div>
       <p className={styles.title}>Available pets</p>
       <ul className={styles.ul}>
         {pets.map(pet => (
@@ -17,7 +17,7 @@ const PetsPage = () => {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 };
 

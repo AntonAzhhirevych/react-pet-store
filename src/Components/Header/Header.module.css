@@ -3,6 +3,8 @@
   height: 10vh;
   background-color: #424242;
   margin-bottom: 50px;
+  padding: 0;
+  overflow: hidden;
 }
 
 .list {
@@ -10,13 +12,14 @@
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
   width: 30%;
 }
 
 .item {
+  display: block;
   text-decoration: none;
   font-size: 25px;
   color: #fff;
