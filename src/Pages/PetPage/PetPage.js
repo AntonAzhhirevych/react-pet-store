@@ -62,23 +62,3 @@ class PetPage extends Component {
 }
 
 export default PetPage;
-
-// const Pet = () => {
-//   return (
-//     <p>PETS PAGE</p>
-//     // <div>
-//     //   <button>Return</button>
-//     //   <div>
-//     //     <img src={pet.src} alt={pet.breed} />
-//     //     <h2>All about {pet.name}</h2>
-//     //     <p>Age: {pet.age}</p>
-//     //     <p>Gender: {pet.breed}</p>
-//     //     <p>Color: {pet.gender}</p>
-//     //     <p>Breed: {pet.color}</p>
-//     //     <p>{pet.description}</p>
-//     //   </div>
-//     // </div>
-//   );
-// };
-
-// export default Pet;
